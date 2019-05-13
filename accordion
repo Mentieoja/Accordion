@@ -1,0 +1,307 @@
+<style>
+  a{
+    color: #6EADBE;
+  }
+.accordion {
+    margin:0 auto;
+    border-radius:10px;
+    width:auto;
+    padding:2%;
+    background:#fff;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+  font-weight:bold;
+    display:block;
+  height:30px;
+    background:#13334A;
+    color:#fff;
+    cursor:pointer;
+    text-transform:uppercase;
+    border-radius:3px;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:#6EADBE;
+    color:#fff;
+
+}
+.accordion .content {
+    padding:2px 20px;
+    overflow:hidden;
+    -webkit-transition: all .7s ease-out;
+    -moz-transition: all .7s ease-out;
+}
+.accordion p {
+    margin:0 0 10px;
+}
+.accordion h3 {
+    padding:0;
+    margin:15px 0;
+}
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+  height: auto;
+  background:#ffffff;
+
+}
+</style>
+
+<div class="accordion vertical">
+    <ul>
+        <li>
+            <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
+            <label for="checkbox-1">About A.M. Money</label>
+            <div class="content">
+              <h3>
+                What does A.M. Money do?
+              </h3>
+                <p>We know first hand what it’s like to struggle to afford higher education, so we provide financial products to allow students to continue investing in themselves and pursuing higher education, free from financial constraints. 
+              </p>
+              <br>
+              <h3>
+                How is the A.M. Money different from other private student loan companies?
+              </h3>
+              <p>
+                We do not rely on the income of your parents to make a decision, and we offer flexible repayment options based upon your income after graduation.
+              </p>
+              <br>
+            </div>
+        </li>
+        <li>
+            <input type="checkbox" id="checkbox-2" name="checkbox-accordion" />
+            <label for="checkbox-2">Eligibility</label>
+            <div class="content">
+                <h3>Is my school and/or program eligible?</h3>
+               <p>
+           <a href="/elligible-illinois-schools">Check Out Our list of Eligible Schools</a>
+              </p>
+              <br>
+              <h3>
+                What makes for a successful application?
+              </h3>
+                <p>A.M. Money offers loans to students who have excelled academically. We ask applicants to provide up-to-date information about their education and future employment.
+
+Right now, we can provide financing to students who have the following:
+- Juniors or Senior standing
+- Above-average GPA 
+- Attend an eligible school (list of eligible Illinois-based schools, contact us for schools outside of Illinois)
+- US citizenship
+- Pell-eligible or near Pell-eligible </p>
+              <br>
+              <h3>
+                How do I know if my enrollment status is considered full-time?
+              </h3>
+              <p>
+                We defer to your school’s or program's definition for this.
+              </p>
+              <br>
+              <h3>
+                Do you require students to make satisfactory academic progress (SAP) in order to receive the loan?
+              </h3>
+              <p>
+                Yes, we ask the school to verify satisfactory academic progress during school certification. The school applies their individual criteria for SAP. In other words, we don’t define SAP, but we do ask the school to confirm that the student is making SAP according to each school’s definition.
+              </p>
+              <br>
+              <h3>
+                Can I apply for a loan if I am not a US citizen?
+              </h3>
+              <p>
+                Right now we are only lending to US citizens. We are working on making our loans accessible to all students, regardless of citizenship.
+              </p>
+              <br>
+              <h3>
+                Do you require or accept co-signers for Student Loans?
+              </h3>
+              <p>
+                We do not require a cosigner at this time. 
+              </p>
+              <br>
+            </div>
+        </li>
+        <li>
+            <input type="checkbox" id="checkbox-3" name="checkbox-accordion" />
+            <label for="checkbox-3">Application Process</label>
+            <div class="content">
+                <h3>How long does the application process take? How quickly can I get my loan?</h3>
+                <p>Our application process takes a little under 3 minutes (we've timed it) to complete, and final review takes about 24 hours after we have the documents we need. The time it takes to get your money will depend on your school's policies.</p>
+              <br>
+              <h3>
+                How can I check the status of my loan?
+              </h3>
+                <p>If you are looking for information regarding your A.M. Money loan application in process or pending disbursement(s), please contact us.</p>
+              <br>
+              <h3>
+                Do I have to reapply for A.M. Money student loans every year?
+              </h3>
+              <p>
+                Yes, but the reapplication is really more of a check-in. We already have all of your information and just want to make sure you're on track.
+              </p>
+              <br>
+              <h3>
+                Can I refinance previously consolidated loans with A.M. Money?
+              </h3>
+              <p>
+                Not at this time, but stay tuned. 
+              </p>
+              <br>
+              <h3>
+                What is the minimum and maximum amount I can borrow with A.M. Money
+              </h3>
+              <p>
+                The minimum amount is $2,001 per year, and the maximum amount is $12,500 per year.
+              </p>
+              <br>
+              <h3>
+                How do I change my email address or password?
+              </h3>
+              <p>
+                Email us and we'll take care of it.
+              </p>
+              <br>
+              <h3>
+                How much should I borrow at one time? Can I borrow for multiple years with one loan?
+              </h3>
+              <p>
+                We know finances can be unstable over the year, so we offer loans per term, not per year. 
+              </p>
+              <br>
+              <h3>
+                How will my loan fund be sent?
+              </h3>
+              <p>
+                We'll disburse your loan funds directly to the school. 
+              </p>
+              <br>
+            </div>
+        </li>
+      
+        <li>
+            <input type="checkbox" id="checkbox-4" name="checkbox-accordion" />
+            <label for="checkbox-4">Repayment</label>
+            <div class="content">
+                <h3>Does A.M. Money offer loan deferment if I go back to school?</h3>
+                <p>Yes. Your repayment period starts 6 months after you graduate, so you get a 6-month cushion automatically before you have to begin making payments. We also offer income-based repayment to help you out.</p>
+              <br>
+              <h3>
+                 Can I defer payment until I’m done with school?
+              </h3>
+                <p>Full principal and interest payments are automatically deferred as long as students remain enrolled at an accredited school at least half-time.  After graduation, we offer an automatic 6 months of deferment, no questions asked. We understand that things might not always go as planned and we are here to help you with that. </p>
+              <br>
+              <h3>
+                When do I start repaying my student loan?
+              </h3>
+              <p>
+                You are not required to make a payment until 6 months after you graduate, but you are also able to make payments of any amount while you are in school to pay your loans off earlier.
+              </p>
+              <br>
+              <h3>
+                Will making a large payment or additional payments change my monthly due amount?
+              </h3>
+              <p>
+                It depends. We will work with you to find the optiminal way to pay back your loans to limit how much you end up paying.
+              </p>
+              <br>
+              <h3>
+                Do you offer income-based repayment plans?
+              </h3>
+              <p>
+                Yes! We are the first private student lender to offer an income-based repayment option to our borrowers. If you cannot afford your standard monthly payment,  you may be eligible to adjust your payment based on your income. 
+
+Our Income Based Repayment Option is different from the federal plan (which is a good thing!) Here are some of the differences:
+- Our loans are not “forgiven” after a certain number of years.
+- The minimum monthly IBR payment is $50, not $0. Instead of accumulating interest, you’ll be making small progress towards paying off your debt and increasing your credit rating.
+- We only offer one straightforward IBR plan. The federal government has several which all work slightly differently.
+
+Annual IBR repayment amount is 15% of the difference between your Adjusted Gross Income and 150% of the Department of Health and Human Services poverty guideline for your family size and state. This amount is then divided by 12 to get the monthly IBR payment amount. Income-Based Repayment is based on the adjusted gross income during the prior tax year.  IBR Minimum monthly payment is $50 per month.
+              </p>
+              <br>
+            </div>
+        </li>
+           
+        <li>
+            <input type="checkbox" id="checkbox-5" name="checkbox-accordion" />
+            <label for="checkbox-5">Interest</label>
+            <div class="content">
+                <h3>What is the A.M. Money interest rate?</h3>
+                <p>We work to provide the lowest rate we possibly can to our borrowers. Rates are determined by availabilty of funding and other factors.</p>
+              <br>
+              <h3>
+                Do you offer fixed interest rates?
+              </h3>
+                <p>Not at this time. Our loans are variable interest rate loans, and the interest rate changes once a year after the Department of Education updates their rates. </p>
+              <br>
+              <h3>
+                How does A.M. Money offer such low rates?
+              </h3>
+              <p>
+                Our investors believe in you, as we do. 
+              </p>
+              <br>
+              <h3>
+                Does A.M. Money charge any fees?
+              </h3>
+              <p>
+                We charge an origination fee of 4.5%. We do NOT charge any other prepayment, early payment, or extra payment fees.
+              </p>
+              <br>
+              <h3>
+                When does interest accrue?
+              </h3>
+              <p>
+                Interest will begin to accrue as of the disbursement date on the principal amount of the loan and will continue to accrue on any outstanding balance. Interest will also accrue during periods of non-payment, including periods of authorized deferment. Interest is capitalized upon entering a repayment period status and at the end of any authorized deferment. Basically the same benchmark government loans use.
+              </p>
+              <br>
+              <h3>
+                What is capitalization?
+              </h3>
+              <p>
+                If you don't pay your full interest amount, that amount can be then transitioned into the total amount you owe to us. We will explain this in more detail when you make a decision that can incur additional costs, and our commitment is to helping you navigate this process with your long-term best interests in mind.
+              </p>
+              <br>
+            </div>
+        </li>
+           
+        <li>
+            <input type="checkbox" id="checkbox-6" name="checkbox-accordion" />
+            <label for="checkbox-6">Other Important Questions</label>
+            <div class="content">
+                <h3>What does "A.M. Money" mean??</h3>
+                <p>A.M. stands for Ante Meridiem, it's Latin for "before noon". We are based in the belief that taking care of your finances early in your day, and early in your life, is one of the keys to financial success. We focus on helping students who have a demonstrated financial need, who are traditionally excluded from financial opportunities. Getting you started on your finanacial journey early is our mission.</p>
+              <br>
+              <h3>
+                What is A.M. Money's security policy?
+              </h3>
+              <p>We take <a href="/privacy">security and privacy </a>as seriously as you do. In order to protect you and your data against fraud and theft, our secure system is tested by our team and third-party agencies regularly</p>
+              <br>
+            </div>
+        </li>
+    </ul>
+  
+</div>
